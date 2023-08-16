@@ -5,7 +5,6 @@ import {
   FaBuffer,
   FaChevronDown,
   FaHome,
-  FaTimes,
   FaUserAlt,
 } from "react-icons/fa";
 import { VscSend } from "react-icons/vsc";

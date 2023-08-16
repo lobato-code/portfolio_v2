@@ -108,7 +108,11 @@ button {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+svg {
+  font-size: 1.75rem;
 }
 
 /* ========================= REUSABLE CSS CLASES ========================= */
@@ -148,6 +152,7 @@ img {
 
 .flex {
   display: flex;
+  gap: 5px;
 }
 /* ========================= BUTTONS ========================= */
 
@@ -171,6 +176,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  gap: 1rem;
 }
 
 /* ========================= BREAKPOINTS ========================= */
