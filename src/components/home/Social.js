@@ -1,21 +1,19 @@
+import "./home.css";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Social() {
   return (
-    <ul className="social__list">
-      <li className="social__item">
-        <a href=""></a>
+    <div className="home__social">
+      <a className="home__social-item" href="" target="_blank">
         <FaGithub />
-      </li>
-      <li className="social__item">
-        <a href=""></a>
+      </a>
+      <a className="home__social-item" href="" target="_blank">
         <FaLinkedin />
-      </li>
-      <li className="social__item">
-        <a href=""></a>
+      </a>
+      <a className="home__social-item" href="" target="_blank">
         <FaTwitter />
-      </li>
-    </ul>
+      </a>
+    </div>
   );
 }
 
