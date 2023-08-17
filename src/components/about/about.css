@@ -1,0 +1,38 @@
+.about__img {
+  background: url("https://lh3.googleusercontent.com/pw/AJFCJaVdClBzLEaTlCaBAEElnBfIgmjnmnGDwAQ9QyEQ8v0rkmWghCXXee6Xk6dwhf8MvEg8_TXOZ5pi3iyjnMNtIxDsyIwuc0GqmOn05XrRPvYTHKQ4akc=w2400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  justify-self: center;
+  min-width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.about__title,
+.about__subtitle {
+  text-align: center;
+}
+
+.about__data {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 58%;
+}
+
+.about__description p {
+  margin-bottom: var(--mb-1);
+}
+
+* {
+  border: 1px solid;
+}
