@@ -14,37 +14,57 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <a href="#home" className="nav__logo">
           Ariel Alejandro
         </a>
         <div className={open ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a className="nav__link active-link" href="#home">
+              <a
+                onClick={() => setOpen(!open)}
+                className="nav__link active-link"
+                href="#home"
+              >
                 <FaHome className="nav__icon" />
                 Home
               </a>
             </li>
             <li className="nav__item">
-              <a className="nav__link" href="#about">
+              <a
+                onClick={() => setOpen(!open)}
+                className="nav__link"
+                href="#about"
+              >
                 <FaUserAlt className="nav__icon" />
                 About
               </a>
             </li>
             <li className="nav__item">
-              <a className="nav__link" href="#skills">
+              <a
+                onClick={() => setOpen(!open)}
+                className="nav__link"
+                href="#skills"
+              >
                 <FaTools className="nav__icon" />
                 Skills
               </a>
             </li>
             <li className="nav__item">
-              <a className="nav__link" href="#projects">
+              <a
+                onClick={() => setOpen(!open)}
+                className="nav__link"
+                href="#projects"
+              >
                 <FaBuffer className="nav__icon" />
                 Projects
               </a>
             </li>
             <li className="nav__item">
-              <a className="nav__link" href="#contact">
+              <a
+                onClick={() => setOpen(!open)}
+                className="nav__link"
+                href="#contact"
+              >
                 <VscSend className="nav__icon" />
                 Contact
               </a>
