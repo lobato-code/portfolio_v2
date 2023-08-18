@@ -14,7 +14,7 @@ function Data() {
           aperiam labore tenetur earum. Eligendi nesciunt ptiae quo in
           voluptatem? Ab animi debitis deserunt eum beatae!
         </p>
-        <button className="button"> Download CV</button>
+        <button className="about__button button"> Download CV</button>
       </div>
     </div>
   );
