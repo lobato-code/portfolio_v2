@@ -52,6 +52,41 @@
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    flex-direction: column;
+  }
+
+  .contact__form {
+    margin-bottom: 2rem;
+  }
+
+  .contact__social {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact__social--item p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact__form {
+    width: 90%;
+  }
+
+  .contact__social {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 350px) {
+}
+
 /* * {
   border: 1px solid;
 } */
