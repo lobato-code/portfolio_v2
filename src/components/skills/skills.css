@@ -1,0 +1,84 @@
+.skills__stacks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills__title,
+.skills__subtitle {
+  text-align: center;
+}
+
+.skills__subtitle {
+  margin-bottom: var(--mb-2);
+}
+
+.skills__stack--title {
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-2);
+}
+
+.skills__backend,
+.skills__frontend {
+  width: 40%;
+  border: 1px solid;
+  padding: 1rem;
+  margin-bottom: var(--mb-2);
+  border-radius: 10px;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.skills__list li {
+  margin-bottom: var(--mb-1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 3px;
+}
+
+.skills__list li svg:nth-child(1) {
+  font-size: 50px;
+}
+
+/* * {
+  border: 1px solid;
+} */
+
+/* .ToolBar-Container {
+  margin: auto;
+  width: 90%;
+  padding: 3em 0;
+  margin-top: 28px;
+} */
+
+.ToolBar-List {
+  display: grid;
+  /* grid-template-columns: repeat(12, auto); */
+  grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+}
+
+/* .ToolBar-List li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 3px;
+}
+
+.ToolBar-List li svg:nth-child(1) {
+  font-size: 100px;
+}
+
+.ToolBar-List li p {
+  font-size: 12px;
+} */
+
+/* * {
+    border: 1px solid ;
+  } */
