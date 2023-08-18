@@ -45,6 +45,16 @@
   font-size: 50px;
 }
 
+@media screen and (max-width: 576px) {
+  .skills__stacks {
+    flex-direction: column;
+  }
+  .skills__backend,
+  .skills__frontend {
+    width: 100%;
+  }
+}
+
 /* * {
   border: 1px solid;
 } */
