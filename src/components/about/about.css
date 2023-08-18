@@ -34,7 +34,7 @@
 }
 
 .about__description p {
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-2);
 }
 
 @media screen and (max-width: 992px) {
@@ -68,6 +68,7 @@
     width: 90%;
     text-align: center;
     font-size: var(--small-font-size);
+    gap: 1.2rem;
   }
 
   .about__button {
@@ -76,14 +77,11 @@
 }
 
 @media screen and (max-width: 350px) {
-  .about__container {
-  }
-
   .about__description {
     font-size: var(--smaller-font-size);
   }
 }
 
-* {
+/* * {
   border: 1px solid;
-}
+} */
