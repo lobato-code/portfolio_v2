@@ -49,7 +49,7 @@
 }
 
 .home__description {
-  min-width: 400px;
+  /* min-width: 400px; */
   margin-bottom: var(--mb-3);
 }
 
@@ -138,7 +138,7 @@
 @media screen and (max-width: 768px) {
   .home__content {
     grid-template-columns: 0.5fr 3fr;
-    padding: 3.5rem;
+    padding: 1rem;
   }
 
   .home__img {
@@ -155,6 +155,14 @@
 
   .home__scroll {
     display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__data p {
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
   }
 }
 

@@ -5,13 +5,13 @@ function Contact() {
   return (
     <div>
       {" "}
-      <div id="contact" className="contact section">
+      <section id="contact" className="contact section">
         <h1 className="contact__title">Get in touch</h1>
         <div className="contact__container container">
           <ContactForm />
           <Social />
         </div>
-      </div>
+      </section>
     </div>
   );
 }

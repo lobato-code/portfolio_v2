@@ -146,6 +146,10 @@ svg {
 
 /* ========================= LAYOUT ========================= */
 
+#root {
+  overflow: hidden;
+}
+
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -220,3 +224,7 @@ svg {
     margin-right: var(--mb-1);
   }
 }
+
+/* * {
+  border: 1px solid;
+} */
