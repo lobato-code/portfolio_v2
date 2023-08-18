@@ -5,6 +5,7 @@ import {
   FaBuffer,
   FaChevronDown,
   FaHome,
+  FaTools,
   FaUserAlt,
 } from "react-icons/fa";
 import { VscSend } from "react-icons/vsc";
@@ -28,6 +29,12 @@ function Header() {
               <a className="nav__link" href="#about">
                 <FaUserAlt className="nav__icon" />
                 About
+              </a>
+            </li>
+            <li className="nav__item">
+              <a className="nav__link" href="#skills">
+                <FaTools className="nav__icon" />
+                Skills
               </a>
             </li>
             <li className="nav__item">
