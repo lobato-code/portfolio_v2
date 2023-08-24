@@ -1,3 +1,6 @@
 # Portfolio
 
-This the Ariel Alehjandro's protfolio
+This the Ariel Alehjandro's portfolio
+
+LIVE : (https://mt-alejo.netlify.app/)
+
