@@ -42,9 +42,14 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .about__data {
+    flex-direction: column;
+    align-items: center;
+  }
   .about__img {
     width: 275px;
     height: 275px;
+    margin-bottom: var(--mb-2);
   }
 
   .about__subtitle {
@@ -53,10 +58,6 @@
 }
 
 @media screen and (max-width: 576px) {
-  .about__data {
-    flex-direction: column;
-    align-items: center;
-  }
   .about__img {
     width: 90%;
     height: 200px;
