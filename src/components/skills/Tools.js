@@ -1,11 +1,10 @@
+import "./tools.css";
 import {
   SiExpress,
-  SiGnubash,
   SiJavascript,
   SiMongodb,
   SiNextdotjs,
   SiTailwindcss,
-  SiVisualstudiocode,
   SiWebpack,
 } from "react-icons/si";
 import {
@@ -25,36 +24,36 @@ function Tools() {
         <p className="skills__stack--title">Frontend</p>
         <ul className="skills__list">
           <li>
-            <FaHtml5 />
+            <FaHtml5 id="html" className="tool_svg" />
             <p>HTML</p>
           </li>
           <li>
-            <FaCss3Alt />
+            <FaCss3Alt id="css" className="tool_svg" />
             <p>CSS</p>
           </li>
           <li>
-            <SiJavascript />
+            <SiJavascript id="js" className="tool_svg" />
             <p>JavaScript</p>
           </li>
           <li>
-            <FaGitAlt />
+            <FaGitAlt id="git" className="tool_svg" />
             <p>GIT</p>
           </li>
 
           <li>
-            <SiTailwindcss />
+            <SiTailwindcss id="twd" className="tool_svg" />
             <p>Tailwind</p>
           </li>
           <li>
-            <FaNpm />
+            <FaNpm id="npm" className="tool_svg" />
             <p>NPM</p>
           </li>
           <li>
-            <SiWebpack />
+            <SiWebpack id="wpk" className="tool_svg" />
             <p>Webpack</p>
           </li>
           <li>
-            <FaReact />
+            <FaReact id="react" className="tool_svg" />
             <p>React</p>
           </li>
         </ul>
@@ -64,23 +63,23 @@ function Tools() {
 
         <ul className="skills__list">
           <li>
-            <FaLinux />
+            <FaLinux id="linux" className="tool_svg" />
             <p>Linux</p>
           </li>
           <li>
-            <SiNextdotjs />
+            <SiNextdotjs id="next" className="tool_svg" />
             <p>Next</p>
           </li>
           <li>
-            <FaNodeJs />
+            <FaNodeJs id="node" className="tool_svg" />
             <p>Node</p>
           </li>
           <li>
-            <SiExpress />
+            <SiExpress id="exps" className="tool_svg" />
             <p>Express</p>
           </li>
           <li>
-            <SiMongodb />
+            <SiMongodb id="mongo" className="tool_svg" />
             <p>Mongo db</p>
           </li>
         </ul>

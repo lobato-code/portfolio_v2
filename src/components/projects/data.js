@@ -4,7 +4,7 @@ const projects = [
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9b5fcz4w4Ms1OZPT_ZtKI6yMYC2iKkM-yPgJyIULOjrB1uBsPgB-aUa5POE5hv4HTL4tNNC-yuGVL-q5atrwZ7GXVFyAkFCdblMMdxfGpIotzT3_I=w2400",
     title: `E-commerce React`,
-    live: "bla",
+    live: "https://ecommerce-logo.netlify.app/",
     repo: "https://github.com/mt-alejo/project-ecommerce-react",
   },
   {
