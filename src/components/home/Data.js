@@ -6,8 +6,9 @@ function Data() {
       <h1 className="home__title"> Alejandro</h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor vero
-        reprehenderit culpa at qui quaerat fugiat modi.
+        Hi! I'm a passionate software developer and I'm excited about the
+        opportunity to join and contribute a dynamic team in the technology
+        industry.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
