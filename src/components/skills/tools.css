@@ -1,0 +1,62 @@
+.tool_svg {
+  transition: 0.3s ease-in-out;
+}
+
+#html:hover {
+  transition: 0.3s ease-out;
+  fill: orangered;
+}
+
+#css:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 119, 255);
+}
+
+#js:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(230, 216, 34);
+}
+
+#git:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(255, 94, 0);
+}
+#wpk:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 71, 179);
+}
+#npm:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(255, 0, 0);
+}
+#twd:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 149, 175);
+}
+#react:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(10, 212, 219);
+}
+
+/**/
+
+#linux:hover {
+  transition: 0.3s ease-out;
+  fill: initial;
+}
+#node:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 156, 39);
+}
+#exps:hover {
+  transition: 0.3s ease-out;
+  fill: initial;
+}
+#mongo:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 187, 56);
+}
+#next:hover {
+  transition: 0.3s ease-out;
+  fill: initial;
+}
