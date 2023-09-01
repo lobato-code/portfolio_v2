@@ -1,9 +1,4 @@
 .projects__container {
-  display: grid;
-  grid-template-columns: repeat(2, max-content);
-  gap: 4rem;
-  justify-content: center;
-  margin-bottom: 6rem;
 }
 
 .projects__title,
@@ -11,64 +6,72 @@
   text-align: center;
 }
 
-.projects__subtitle {
-  margin-bottom: var(--mb-2);
+.project__card {
+  margin-top: var(--mb-2);
+  padding: 1.5rem;
+  display: flex;
+  box-shadow: 5px 5px 20px rgb(179, 179, 179);
+}
+
+.project__years {
+  margin-bottom: var(--mb-0-5);
 }
 
 .project__title {
-  color: var(--title-color);
-  flex: 1;
-}
-
-.project__card {
-  background-color: var(--container-color);
-  border: 1px solid rgb(218, 217, 217);
-  padding: 1rem;
-  border-radius: 4px;
-}
-
-.project__img {
-  width: 395px;
-  height: 300px;
-  border-radius: 8px 8px 0 0;
   margin-bottom: var(--mb-1);
-  object-fit: cover;
 }
 
-.projects__bottom {
-  display: flex;
-}
-
-.projects__bottom--item {
+.project__icon svg {
+  font-size: 16px;
   color: var(--title-color);
-
-  margin-left: 16px;
+  margin-left: 8px;
+  cursor: pointer;
 }
-
-.projects__bottom--item:hover {
+.project__icon svg:hover {
   color: var(--title-color-dark);
 }
 
+.project__description {
+  margin-bottom: var(--mb-2);
+}
+
+.project__technologies {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.project__technologies--item {
+  background-color: var(--text-color);
+  color: white;
+  padding: 4px 16px;
+  border-radius: 12px;
+}
+
+.project__image {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__image svg {
+  font-size: 100px;
+  color: rgb(198, 197, 197);
+  padding-top: 2rem;
+}
+
 @media screen and (max-width: 992px) {
-  .projects__container {
-    grid-template-columns: repeat(2, 400px);
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .project__img {
-    width: 100%;
-  }
-  .projects__container {
-    grid-template-columns: 90%;
-  }
 }
 
 @media screen and (max-width: 576px) {
 }
 
 @media screen and (max-width: 350px) {
-  .projects__container {
-    grid-template-columns: 100%;
-  }
 }
+/* 
+* {
+  border: 1px solid;
+} */
