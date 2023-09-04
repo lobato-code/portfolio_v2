@@ -6,15 +6,11 @@ function Data() {
       <div className="about__img"></div>{" "}
       <div className="about__description">
         <p>
-          Dedicated to everything related to web development in general. I have
-          experience using the fundamentals of the web along with React in the
-          creation of personal projects and small exercises. I seek for
-          implement best practices in every line of code I write, ensuring
-          quality in my work.
+        Ecuadorian self-taught developer dedicated to everything related to web development in general. I have experience using React, Express, and Mongo along with multiple web tools in the creation of personal projects and small practices. Always looking to implement best practices in every solution I implement, ensuring quality in my work.
         </p>
         <p>
           Currently, I am looking for new job opportunities that will challenge
-          me and allow me grow professionally. My diligence and responsibility
+          me and allow me to grow professionally. My diligence and responsibility
           are attributes that many companies would find attractive. I consider
           myself a proactive person when it comes to facing all kinds of
           problems and difficulties, learning to be more methodical when looking
