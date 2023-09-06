@@ -9,6 +9,9 @@
   height: 350px;
   border-radius: 30px;
 }
+.about__button a {
+  color: white;
+}
 
 .about__title,
 .about__subtitle {
