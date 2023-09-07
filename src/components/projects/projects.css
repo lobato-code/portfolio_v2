@@ -11,6 +11,8 @@
   padding: 1.5rem;
   display: flex;
   box-shadow: 5px 5px 20px rgb(179, 179, 179);
+  position: relative;
+  overflow: hidden;
 }
 
 .project__years {
@@ -22,12 +24,17 @@
 }
 
 .project__icon svg {
-  font-size: 16px;
+  font-size: 24px;
   color: var(--title-color);
-  margin-left: 8px;
+  margin-left: 24px;
   cursor: pointer;
 }
+
 .project__icon svg:hover {
+  -webkit-transform: scale(1.2);
+  transition: 0.5s ease-in;
+  -ms-transform: scale(1.2);
+
   color: var(--title-color-dark);
 }
 
@@ -48,6 +55,10 @@
 }
 
 .project__image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
   min-width: 200px;
   display: flex;
   justify-content: center;
@@ -55,8 +66,8 @@
 }
 
 .project__image svg {
-  font-size: 100px;
-  color: rgb(198, 197, 197);
+  font-size: 300px;
+  color: rgb(237, 237, 237);
   padding-top: 2rem;
 }
 
