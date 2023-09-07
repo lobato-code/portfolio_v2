@@ -32,7 +32,6 @@
 
 .project__icon svg:hover {
   -webkit-transform: scale(1.2);
-  transition: 0.5s ease-in;
   -ms-transform: scale(1.2);
 
   color: var(--title-color-dark);
@@ -69,6 +68,29 @@
   font-size: 300px;
   color: rgb(237, 237, 237);
   padding-top: 2rem;
+}
+
+.project__repo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--title-color-dark);
+  width: 64px;
+  height: 64px;
+  border-radius: 0px 0px 0px 60px;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.project__repo svg {
+  color: white;
+  font-size: 36px;
+}
+
+.project__repo svg:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
 }
 
 @media screen and (max-width: 992px) {

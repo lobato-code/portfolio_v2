@@ -1,12 +1,6 @@
 import React from "react";
 import { projects } from "./data";
-import {
-  FaArrowAltCircleRight,
-  FaGithub,
-  FaLocationArrow,
-  FaLongArrowAltUp,
-  FaShoppingCart,
-} from "react-icons/fa";
+import { FaGithub, FaLocationArrow } from "react-icons/fa";
 
 function Works() {
   console.log(projects);
@@ -32,6 +26,9 @@ function Works() {
             </div>
           </div>
           <div className="project__image">{project.image}</div>
+          <a href={project.repo} className="project__repo">
+            <FaGithub />
+          </a>
         </div>
       ))}
     </div>
