@@ -1,6 +1,17 @@
 .contact {
-  background-color: black;
   color: white;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-color: #000000;
+  /* opacity: 0.8; */
+  background-color: #000000;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #000000 10px
+    ),
+    repeating-linear-gradient(#2f2f2f55, #2f2f2f);
 }
 
 .contact__container {
