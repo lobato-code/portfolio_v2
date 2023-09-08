@@ -1,9 +1,7 @@
-import React from "react";
-
 function Data() {
   return (
     <div className="home__data">
-      <h1 className="home__title"> Alejandro</h1>
+      <h1 className="home__title">Ariel Alejandro</h1>
       <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
         Hi! I'm a passionate software developer and I'm excited about the

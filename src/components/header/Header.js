@@ -22,16 +22,6 @@ function Header() {
             <li className="nav__item">
               <a
                 onClick={() => setOpen(!open)}
-                className="nav__link active-link"
-                href="#home"
-              >
-                <FaHome className="nav__icon" />
-                Home
-              </a>
-            </li>
-            <li className="nav__item">
-              <a
-                onClick={() => setOpen(!open)}
                 className="nav__link"
                 href="#about"
               >
