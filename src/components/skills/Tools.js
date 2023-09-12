@@ -21,7 +21,6 @@ function Tools() {
   return (
     <div className="skills__stacks">
       <div className="skills__frontend">
-        <p className="skills__stack--title">Frontend</p>
         <ul className="skills__list">
           <li>
             <FaHtml5 id="html" className="tool_svg" />
@@ -56,12 +55,7 @@ function Tools() {
             <FaReact id="react" className="tool_svg" />
             <p>React</p>
           </li>
-        </ul>
-      </div>
-      <div className="skills__backend">
-        <p className="skills__stack--title">Backend</p>
 
-        <ul className="skills__list">
           <li>
             <FaLinux id="linux" className="tool_svg" />
             <p>Linux</p>
