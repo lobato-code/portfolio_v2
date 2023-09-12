@@ -5,9 +5,7 @@ function Skills() {
     <section id="skills" className="skills section">
       <div className="skills__container container">
         <h1 className="skills__title">Skills</h1>
-        <p className="skills__subtitle">
-          These are the technologies I'm using in my journey.
-        </p>
+        <p className="skills__subtitle">Technologies in my daily work </p>
         <Tools />
       </div>
     </section>

@@ -2,6 +2,10 @@
   margin-bottom: 4rem;
 }
 
+.projects__container span {
+  color: var(--text-color);
+}
+
 .projects__title,
 .projects__subtitle {
   text-align: center;

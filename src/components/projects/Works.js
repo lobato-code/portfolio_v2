@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "./data";
+import { projects } from "./Data";
 import { FaGithub, FaLocationArrow } from "react-icons/fa";
 
 function Works() {
@@ -10,7 +10,9 @@ function Works() {
           <div className="project__information">
             <p className="project__years">{project.years}</p>
             <h1 className="project__title">
-              {project.title}{" "}
+              {project.title}
+              <span>{" •-• "}</span>
+              {project.product}
               <span className="project__icon">
                 <FaLocationArrow>
                   <a href={project.live}>live</a>
