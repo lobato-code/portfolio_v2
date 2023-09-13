@@ -27,7 +27,7 @@ const projects = [
     ],
     live: "https://ecommerce-logo.netlify.app/",
     years: "2023",
-    repo: "https://github.com/mt-alejo/project-ecommerce-react",
+    repo: "https://github.com/lobato-code/project-ecommerce-react",
     image: <FaShoppingCart />,
   },
   {
@@ -45,7 +45,7 @@ const projects = [
     ],
     live: "https://practice-next-dashboard.vercel.app/",
     years: "2023",
-    repo: "https://github.com/mt-alejo/project-dashboard-next",
+    repo: "https://github.com/lobato-code/project-dashboard-next",
     image: <FaChartBar />,
   },
   {

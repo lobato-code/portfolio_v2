@@ -8,10 +8,13 @@ function Social() {
         <FaTwitter />
         <p>@mt_alejo_</p>
       </a>
-      <a href="https://github.com/mt-alejo" className="contact__social--item">
+      <a
+        href="https://github.com/lobato-code"
+        className="contact__social--item"
+      >
         {" "}
         <FaGithub />
-        <p>@mt-alejo</p>
+        <p>@lobato-code</p>
       </a>
       <a
         href="https://www.linkedin.com/in/ariel-alejandro-calderon/"

@@ -2,6 +2,10 @@
   transition: 0.3s ease-in-out;
 }
 
+.tool__name {
+  font-family: var(--roboto-font);
+}
+
 #html:hover {
   transition: 0.3s ease-out;
   fill: orangered;

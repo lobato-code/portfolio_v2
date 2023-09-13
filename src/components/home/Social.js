@@ -6,7 +6,7 @@ function Social() {
     <div className="home__social">
       <a
         className="home__social-item"
-        href="https://github.com/mt-alejo"
+        href="https://github.com/lobato-code"
         target="_blank"
       >
         <FaGithub />

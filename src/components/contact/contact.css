@@ -63,6 +63,10 @@
   font-size: 1.5rem;
 }
 
+.contact__social--item p {
+  font-family: var(--roboto-font);
+}
+
 @media screen and (max-width: 992px) {
 }
 

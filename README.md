@@ -2,5 +2,4 @@
 
 This the Ariel Alehjandro's portfolio
 
-LIVE : (https://mt-alejo.netlify.app/)
-
+LIVE : (https://lobato-code.netlify.app/)
