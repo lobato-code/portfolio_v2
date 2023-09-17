@@ -1,5 +1,5 @@
 # Portfolio
 
-This the Ariel Alehjandro's portfolio
+This the Ariel Alejandro's portfolio
 
 LIVE : (https://lobato-code.netlify.app/)
