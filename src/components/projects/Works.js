@@ -3,6 +3,7 @@ import { projects } from "./Data";
 import { FaGithub, FaLocationArrow } from "react-icons/fa";
 
 function Works() {
+  console.log("projects", projects);
   return (
     <div className="projects__container container">
       {projects.map((project) => (
@@ -14,9 +15,9 @@ function Works() {
               <span>{" •-• "}</span>
               {project.product}
               <span className="project__icon">
-                <FaLocationArrow>
-                  <a href={project.live}>live</a>
-                </FaLocationArrow>
+                <a href={project.live}>
+                  <FaLocationArrow />
+                </a>
               </span>{" "}
             </h1>
             <p className="project__description">{project.description}</p>
@@ -29,7 +30,7 @@ function Works() {
             </div>
           </div>
           <div className="project__image">{project.image}</div>
-          <a href={project.repo} className="project__repo">
+          <a href={project.live} className="project__repo">
             <FaGithub />
           </a>
         </div>

@@ -13,8 +13,8 @@
 }
 
 .skills__frontend {
-  width: 90%;
-  padding: 1rem;
+  width: 75%;
+  padding: 2rem;
   margin-bottom: var(--mb-1);
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(179, 179, 179);

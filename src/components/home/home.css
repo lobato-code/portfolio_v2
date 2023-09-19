@@ -16,7 +16,7 @@
 }
 
 .home__social-item {
-  color: var(--title-color);
+  color: var(--blue-color-dark);
   font-size: 1.25rem;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .home__subtitle {
+  color: var(--blue-color-dark);
   position: relative;
   font-size: var(--h3-font-size);
   padding-left: 5.4rem;
@@ -102,7 +103,7 @@
 } */
 
 .home__scroll-arrow {
-  color: var(--text-color);
+  color: var(--blue-color-dark);
   position: absolute;
   top: 1;
   left: 150px;

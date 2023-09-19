@@ -19,6 +19,7 @@
 }
 
 .about__subtitle {
+  color: var(--blue-color);
   margin-bottom: var(--mb-2);
 }
 

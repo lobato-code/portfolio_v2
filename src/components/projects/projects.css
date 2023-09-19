@@ -38,8 +38,7 @@
 .project__icon svg:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-
-  color: var(--title-color-dark);
+  color: var(--blue-color-dark);
 }
 
 .project__description {
@@ -52,7 +51,7 @@
 }
 
 .project__technologies--item {
-  background-color: var(--text-color);
+  background-color: var(--blue-color-dark);
   color: white;
   padding: 4px 16px;
   border-radius: 12px;
@@ -71,7 +70,7 @@
 
 .project__image svg {
   font-size: 300px;
-  color: rgb(237, 237, 237);
+  color: var(--blue-color);
   padding-top: 2rem;
 }
 

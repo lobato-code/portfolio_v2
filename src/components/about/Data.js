@@ -20,7 +20,7 @@ function Data() {
           Technology is my path to the future, and my goal is to immerse myself
           in a competitive environment that stimulates my continuous growth.
         </p>
-        <button className="about__button button ">
+        <button className="about__button button button-bg-blue">
           <a href="https://drive.google.com/file/d/1OoCRugKUvnOT-mrmKzXJjrgXYUsQ6m1K/view?usp=sharing">
             Download CV
           </a>{" "}
