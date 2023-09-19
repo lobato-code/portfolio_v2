@@ -1,6 +1,5 @@
 # Portfolio
 
-This the Ariel Alehjandro's portfolio
+This the Ariel Alejandro's portfolio
 
-LIVE : (https://mt-alejo.netlify.app/)
-
+LIVE : (https://lobato-code.netlify.app/)
