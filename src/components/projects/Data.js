@@ -25,7 +25,7 @@ const projects = [
       techDomain.tailwind,
       techDomain.react,
     ],
-    live: "https://ecommerce-logo.netlify.app/",
+    live: "https://tech-shop-ecommerce-site.netlify.app/",
     years: "2023",
     repo: "https://github.com/lobato-code/project-ecommerce-react",
     image: <FaShoppingCart />,
