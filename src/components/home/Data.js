@@ -8,7 +8,7 @@ function Data() {
         opportunity to join and contribute to a dynamic team in the technology
         industry.
       </p>
-      <a href="#contact" className="button button--flex button-bg-blue">
+      <a href="#contact" className="button button--flex ">
         Say Hello
       </a>
     </div>

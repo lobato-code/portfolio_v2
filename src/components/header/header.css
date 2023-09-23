@@ -52,10 +52,12 @@
   .header {
     top: initial;
     bottom: 0;
+    background-color: var(--title-color-dark);
   }
 
   .nav {
     height: var(--header-height);
+    color: white;
   }
 
   .nav__menu {
@@ -63,7 +65,7 @@
     bottom: -40%;
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
+    background-color: var(--title-color-dark);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -78,6 +80,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    color: white;
   }
 
   .nav__icon {
@@ -95,17 +98,23 @@
     bottom: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--title-color);
+
+    color: white;
   }
 
   .nav__close:hover {
     color: var(--title-color-dark);
   }
 
+  .nav__logo {
+    color: white;
+  }
+
   .nav__icon,
   .nav__close,
   .nav__toggle {
     display: block;
+    color: white;
   }
 }
 

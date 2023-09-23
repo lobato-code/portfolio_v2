@@ -43,6 +43,7 @@
 
 .project__description {
   margin-bottom: var(--mb-2);
+  max-width: 70%;
 }
 
 .project__technologies {
@@ -107,6 +108,15 @@
 }
 
 @media screen and (max-width: 350px) {
+  .project__title,
+  .project__description,
+  .project__technologies {
+    max-width: 50%;
+  }
+
+  .project__technologies {
+    overflow: hidden;
+  }
 }
 /* 
 * {

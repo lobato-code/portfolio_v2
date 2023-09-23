@@ -1,3 +1,7 @@
+.home {
+  background-color: rgb(22, 22, 22);
+}
+
 .home__container {
   row-gap: 7rem;
 }
@@ -16,7 +20,7 @@
 }
 
 .home__social-item {
-  color: var(--blue-color-dark);
+  color: white;
   font-size: 1.25rem;
 }
 
@@ -25,13 +29,14 @@
 }
 
 .home__title {
+  color: white;
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-1-5);
   font-weight: var(--font-medium);
 }
 
 .home__subtitle {
-  color: var(--blue-color-dark);
+  color: white;
   position: relative;
   font-size: var(--h3-font-size);
   padding-left: 5.4rem;
@@ -103,7 +108,7 @@
 } */
 
 .home__scroll-arrow {
-  color: var(--blue-color-dark);
+  color: var(--title-color);
   position: absolute;
   top: 1;
   left: 150px;
