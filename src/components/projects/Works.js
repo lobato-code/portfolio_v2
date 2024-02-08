@@ -1,36 +1,36 @@
-import React from "react";
-import { projects } from "./Data";
-import { FaGithub, FaLocationArrow } from "react-icons/fa";
+import React from 'react';
+import { projects } from './Data';
+import { FaGithub, FaLocationArrow } from 'react-icons/fa';
 
 function Works() {
-  console.log("projects", projects);
+  console.log('projects', projects);
   return (
-    <div className="projects__container container">
+    <div className='projects__container container'>
       {projects.map((project) => (
-        <div key={project.id} className="project__card">
-          <div className="project__information">
-            <p className="project__years">{project.years}</p>
-            <h1 className="project__title">
+        <div key={project.id} className='project__card'>
+          <div className='project__information'>
+            <p className='project__years'>{project.years}</p>
+            <h1 className='project__title'>
               {project.title}
-              <span>{" •-• "}</span>
+              <span>{' •-• '}</span>
               {project.product}
-              <span className="project__icon">
+              <span className='project__icon'>
                 <a href={project.live}>
                   <FaLocationArrow />
                 </a>
-              </span>{" "}
+              </span>{' '}
             </h1>
-            <p className="project__description">{project.description}</p>
-            <div className="project__technologies">
+            <p className='project__description'>{project.description}</p>
+            <div className='project__technologies'>
               {project.technologies.map((item) => (
-                <p key={item} className="project__technologies--item">
+                <p key={item} className='project__technologies--item'>
                   {item}
                 </p>
               ))}
             </div>
           </div>
-          <div className="project__image">{project.image}</div>
-          <a href={project.live} className="project__repo">
+          <div className='project__image'>{project.image}</div>
+          <a href={project.repo} className='project__repo'>
             <FaGithub />
           </a>
         </div>

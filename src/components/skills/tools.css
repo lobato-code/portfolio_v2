@@ -65,3 +65,11 @@
   transition: 0.3s ease-out;
   fill: initial;
 }
+#typescript:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 110, 255);
+}
+#postgres:hover {
+  transition: 0.3s ease-out;
+  fill: rgb(0, 0, 88);
+}
